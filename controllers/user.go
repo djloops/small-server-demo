@@ -60,69 +60,63 @@ func GetBoard(c *gin.Context) {
 
 func Mock(c * gin.Context) {
     db.CreateUser(&models.User{
-    	Name: "dongjiali",
-		AvatarUrl:  "https://source.unsplash.com/random/100x100",
+    	Name: "董佳礼",
+		AvatarUrl:  "https://images.unsplash.com/photo-1531203236206-56458355ba2a?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&h=200&fit=crop&ixid=eyJhcHBfaWQiOjF9&s=885060889caf3f1ba98c70a0c85b25b8",
 		CreateTime: time.Now(),
 		UpdateTime: time.Now(),
 	})
 
 	db.CreateUser(&models.User{
-		Name: "jingxue",
-		AvatarUrl:  "https://source.unsplash.com/random/100x100",
+		Name: "zoujing",
+		AvatarUrl:  "https://images.unsplash.com/photo-1530890192129-e7c9ec4a2025?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&h=200&fit=crop&ixid=eyJhcHBfaWQiOjF9&s=d035ec770d0222ca956c30614059e096",
 		CreateTime: time.Now(),
 		UpdateTime: time.Now(),
 	})
 	db.CreateUser(&models.User{
-		Name: "曾国藩",
-		AvatarUrl:  "https://source.unsplash.com/random/100x100",
+		Name: "韩速",
+		AvatarUrl:  "https://images.unsplash.com/photo-1532578941548-30cbde3ad4b1?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&h=200&fit=crop&ixid=eyJhcHBfaWQiOjF9&s=e5a0841bc2bb2488f08edcf1beda760e",
 		CreateTime: time.Now(),
 		UpdateTime: time.Now(),
 	})
 	db.CreateUser(&models.User{
-		Name: "Gary Dong",
-		AvatarUrl:  "https://source.unsplash.com/random/100x100",
+		Name: "Steve Jobs",
+		AvatarUrl:  "https://images.unsplash.com/photo-1532696389727-73b88de71ef0?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&h=200&fit=crop&ixid=eyJhcHBfaWQiOjF9&s=2f5c05b5dead472391dceb93e9de1c4e",
 		CreateTime: time.Now(),
 		UpdateTime: time.Now(),
 	})
 	db.CreateUser(&models.User{
-		Name: "曹操",
-		AvatarUrl:  "https://source.unsplash.com/random/100x100",
+		Name: "张超",
+		AvatarUrl:  "https://images.unsplash.com/photo-1530999075172-6846540b2617?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&h=200&fit=crop&ixid=eyJhcHBfaWQiOjF9&s=d7dae86cc8dd72d19ceb3c0dab53f614",
 		CreateTime: time.Now(),
 		UpdateTime: time.Now(),
 	})
 	db.CreateUser(&models.User{
 		Name: "张飞",
-		AvatarUrl:  "https://source.unsplash.com/random/100x100",
+		AvatarUrl:  "https://images.unsplash.com/photo-1532466522623-976ab79e4037?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&h=200&fit=crop&ixid=eyJhcHBfaWQiOjF9&s=8e3aa877123f0c7852221828fbf20512",
 		CreateTime: time.Now(),
 		UpdateTime: time.Now(),
 	})
 	db.CreateUser(&models.User{
 		Name: "陈坤",
-		AvatarUrl:  "https://source.unsplash.com/random/100x100",
+		AvatarUrl:  "https://images.unsplash.com/photo-1533165159663-884a2837ef63?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&h=200&fit=crop&ixid=eyJhcHBfaWQiOjF9&s=4584eeb6e64c6f7e529f36a3d8dd6182",
 		CreateTime: time.Now(),
 		UpdateTime: time.Now(),
 	})
 	db.CreateUser(&models.User{
 		Name: "马化腾",
-		AvatarUrl:  "https://source.unsplash.com/random/100x100",
+		AvatarUrl:  "https://images.unsplash.com/photo-1531579881625-f9ab707607fe?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&h=200&fit=crop&ixid=eyJhcHBfaWQiOjF9&s=d3e9ddd353a28fe905f273645b578312",
 		CreateTime: time.Now(),
 		UpdateTime: time.Now(),
 	})
 	db.CreateUser(&models.User{
-		Name: "Steve jobs",
-		AvatarUrl:  "https://source.unsplash.com/random/100x100",
-		CreateTime: time.Now(),
-		UpdateTime: time.Now(),
-	})
-	db.CreateUser(&models.User{
-		Name: "欧阳锋",
-		AvatarUrl:  "https://source.unsplash.com/random/100x100",
+		Name: "好红叶",
+		AvatarUrl:  "https://images.unsplash.com/photo-1532090912514-3b90d608e6b7?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&h=200&fit=crop&ixid=eyJhcHBfaWQiOjF9&s=f5d469bc21c7749414cc4d5b9f552335",
 		CreateTime: time.Now(),
 		UpdateTime: time.Now(),
 	})
 	db.CreateUser(&models.User{
 		Name: "姆巴佩",
-		AvatarUrl:  "https://source.unsplash.com/random/100x100",
+		AvatarUrl:  "https://images.unsplash.com/photo-1533052420930-2cda210f54ed?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&h=200&fit=crop&ixid=eyJhcHBfaWQiOjF9&s=c476b8ae13e9f0f8141b34aacdb71340",
 		CreateTime: time.Now(),
 		UpdateTime: time.Now(),
 	})
