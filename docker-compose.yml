@@ -1,0 +1,27 @@
+version: '2'
+services:
+  mysql:
+    restart: always
+    image: mysql:5.5
+    container_name: app-mysql
+    ports:
+      - "8001:3306"
+    volumes:
+      - ./docker_build/mysql/conf:/etc/mysql/conf.d
+      - ./docker_build/mysql/data:/var/lib/mysql
+      - ./docker_build/mysql/init.d:/docker-entrypoint-initdb.d
+    environment:
+      MYSQL_ROOT_PASSWORD: 123456
+      MYSQL_USER: dev
+      MYSQL_PASSWORD: 123456
+      MYSQL_DATABASE: app
+
+  redis:
+    restart: always
+    image: redis:latest
+    container_name: app-redis
+    ports:
+      - "8002:6379"
+    volumes:
+      - ./docker_build/redis/data:/data
+    command: redis-server --requirepass password --appendonly yes

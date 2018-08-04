@@ -1,0 +1,4 @@
+docker_build/mysql/data/
+docker_build/redis/data/
+
+.idea/
